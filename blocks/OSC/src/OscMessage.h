@@ -60,6 +60,7 @@ namespace cinder { namespace osc {
 		std::string getArgAsString( int index, bool typeConvert = false ) const;
         ci::Buffer getArgAsBlob(int index, bool typeConvert = false) const;
         
+        
 		void addIntArg( int32_t argument );
 		void addFloatArg( float argument );
 		void addStringArg( std::string argument );

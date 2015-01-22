@@ -121,7 +121,6 @@ typedef enum _ArgType
         ci::Buffer get() const { return value; }
         /// set value
         void set( ci::Buffer _value ) { value = _value; }
-        
         void set( const char *_value, unsigned int size) {
             ci::Buffer buff = Buffer(&value, size);
             value = buff;
